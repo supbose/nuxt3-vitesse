@@ -4,11 +4,14 @@ import { appName } from '~/constants'
 useHead({
   title: appName,
 })
+
+
+const layout='home'
 </script>
 
 <template>
   <VitePwaManifest />
-  <NuxtLayout>
+  <NuxtLayout :name="layout">
     <NuxtPage />
   </NuxtLayout>
 </template>
