@@ -4,9 +4,7 @@ import { appName } from '~/constants'
 useHead({
   title: appName,
 })
-
-
-const layout='home'
+const layout = 'home'
 </script>
 
 <template>
